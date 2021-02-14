@@ -1,0 +1,21 @@
+{
+  "name": "peedj/api-connect",
+  "description": "description",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "antonshashok",
+      "email": "shashok.anton@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "ApiConnect\\": "src"
+    }
+  },
+  "require": {
+    "php": ">=7.4",
+    "ext-curl": "*"
+  }
+}
